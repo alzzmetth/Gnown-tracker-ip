@@ -49,5 +49,27 @@ Standard library modules used:
 Clone the repository:
 
 ```bash
-git clone https://github.com/yourusername/ip-tracker.git
-cd ip-tracker
+git clone https://github.com/alzzmetth/Gnown-tracker-ip.git
+```
+```bash
+cd gnown-ip-tracker
+```
+## setup
+```bash
+cd setup
+```
+```bash
+python setup.py
+```
+## run
+```bash
+cd ..
+```
+```bash
+python gnown.py
+```
+## menu 
+```bash
+python gnown.py -h
+
+
