@@ -1,0 +1,112 @@
+====================================================
+                IP TRACKER TOOL
+        
+        developed by @alzzdevmaret/bald
+====================================================
+
+
+1. REQUIREMENTS
+----------------------------------------------------
+- Python 3.8 atau lebih baru
+- Internet connection
+
+
+2. INSTALL DEPENDENCIES
+----------------------------------------------------
+
+Jalankan:
+
+    python setup.py
+
+Script ini akan:
+- Mengecek module yang dibutuhkan
+- Menginstall otomatis jika belum ada
+
+Module yang diperlukan:
+- requests
+- colorama
+
+Module lain seperti:
+itertools, json, threading, time, argparse
+sudah termasuk bawaan Python.
+
+
+3. MENJALANKAN TOOL
+----------------------------------------------------
+
+Format dasar:
+
+    python tracker.py --track <IP_ADDRESS>
+
+Contoh:
+
+    python tracker.py --track 8.8.8.8
+
+
+4. TRACK IP SENDIRI
+----------------------------------------------------
+
+Untuk melacak IP publik kamu sendiri:
+
+    python tracker.py --track myip
+
+
+5. OUTPUT FORMAT JSON
+----------------------------------------------------
+
+Untuk mendapatkan hasil dalam format JSON:
+
+    python tracker.py --track 8.8.8.8 -json
+
+Atau:
+
+    python tracker.py --track myip -json
+
+
+6. HELP MENU
+----------------------------------------------------
+
+Untuk melihat semua opsi:
+
+    python tracker.py -h
+
+
+7. FITUR UTAMA
+----------------------------------------------------
+
+✓ ASCII Banner
+✓ Advanced Spinner Loading Animation
+✓ Custom User-Agent
+✓ Retry + Exponential Backoff
+✓ Dual API Fallback (Anti 403)
+✓ Google Maps Link Otomatis
+✓ JSON Output Mode
+✓ Clean Error Handling
+✓ Production Ready Structure
+
+
+8. GOOGLE MAPS LINK
+----------------------------------------------------
+
+Jika latitude & longitude tersedia,
+tool akan otomatis generate link:
+
+https://www.google.com/maps?q=LATITUDE,LONGITUDE
+
+Bisa langsung dibuka di browser.
+
+
+9. TROUBLESHOOTING
+----------------------------------------------------
+
+Jika terjadi error 403:
+- Kemungkinan rate limit API
+- Coba ulang beberapa detik kemudian
+
+Jika module error:
+- Jalankan kembali: python setup.py
+
+
+====================================================
+END OF FILE
+====================================================
